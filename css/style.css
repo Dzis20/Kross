@@ -1,0 +1,122 @@
+body {
+    background-color: #fff;
+    font-family: 'Playfair Display', serif;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Poppins', sans-serif; */
+    font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+h2.section-title {
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 100px;
+    font-size: 60px;
+}
+  
+span.for-title {
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.header {
+    height: 866px;
+    background-image: url('../img/header-backgound.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header .container {
+    max-width: 1380px;
+    height: 100%;
+}
+.header-content {
+    background-image: url('../img/leaf-1.png'), url('../img/leaf-2.png'), url('../img/leaf-3.png'), url('../img/leaf-4.png'), url('../img/leaf-5.png'), url('../img/dot-1.png'), url('../img/dot-2.png');
+    background-repeat: no-repeat;
+    background-position: 0% 40%, 658px 196px, 100% 100px, 100% 85%, 60% 85%, 60% 20%, 35% 90%;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+    margin-bottom: 225px;
+}
+p.logo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+ul.main-nav {
+    display: flex;
+    position: relative;
+    top: 10px;
+    
+}
+ul.main-nav li.main-nav-item {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 40px;
+    border-bottom: 1px solid transparent;
+}
+ul.main-nav li.main-nav-item a {
+    color: #fff;
+}
+ul.main-nav li.main-nav-item:hover {
+    border-bottom: 1px solid white;
+}
+.header-middle {
+    padding-left: 205px;
+    margin-bottom: 96px;
+}
+.header-middle h1 {
+    max-width: 500px;
+    font-size: 80px;
+    font-family: "Poppins";
+}
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.header-socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-socials a {
+    margin-top: 15px;
+}
+
+.information {
+    padding-top: 88px;
+    position: relative;
+    
+}
+.info-content {
+    display: flex;
+    flex-direction: column;
+}
+.info-content img {
+    position: absolute;
+    top: -55px;
+    left: 10%;
+}
+.info-content p {
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    line-height: 1.636;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 50px;
+}
+.info-content a {
+    text-align: center;
+    margin-bottom: 150px;
+}
