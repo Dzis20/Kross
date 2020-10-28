@@ -5,7 +5,7 @@ body {
     /* font-family: 'Poppins', sans-serif; */
     font-weight: 400;
     font-size: 22px;
-    color: #fff;
+    color: #000;
 }
 .container {
     max-width: 1170px;
@@ -130,7 +130,12 @@ ul.main-nav li.main-nav-item:hover {
 .skills-list {
     display: flex;
     justify-content: space-between;
-    box-shadow: 0px 30px 20px #f4faff;
+    box-shadow: 40px 40px 10px #f4faff,
+    -40px -0px 10px #f4faff,
+    40px -0px 10px #f4faff,
+    -40px 40px 10px #f4faff;
+    /* -moz-box-shadow: 0px 30px 20px #f4faff;
+    -webkit-box-shadow: 0px 30px 20px #f4faff; */
 }
 .skills-item {
     width: 270px;
