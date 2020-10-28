@@ -147,14 +147,44 @@ ul.main-nav li.main-nav-item:hover {
     font-size: 22px;
     text-align: center;
 }
+.experience {
+    margin-bottom: 65px;
+}
+.exp-list {
+    display: flex;
+    justify-content: space-around;
+}
+.exp-item {
+    margin-bottom: 35px;
+}
+.exp-item img {
+    margin: 0 auto;
+    margin-bottom: 45px;
+    
+}
+p.exp-date {
+    font-size: 18px;
+    font-family: "Roboto";
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 25px;
+}
 
-  .Web_Design {
-  
-  font-family: "PlayfairDisplay";
-  
-  line-height: 3.818;
-  position: absolute;
-  left: 290.938px;
-  top: 1658.526px;
-  z-index: 266;
+p.exp-job {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+p.exp-loc {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.education {
+    padding-top: 125px;
+    background-image: url('../img/education-background.png');
+    background-size: cover;
 }
