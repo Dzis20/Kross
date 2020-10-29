@@ -10,6 +10,7 @@ body {
 .container {
     max-width: 1170px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 h2.section-title {
@@ -27,7 +28,7 @@ span.for-title {
 }
 
 .header {
-    height: 866px;
+    /* height: 866px; */
     background-image: url('../img/header-backgound.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,29 +48,27 @@ span.for-title {
     padding-top: 48px;
     margin-bottom: 225px;
 }
-p.logo {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 50px;
-    
+.slide-menu {
+    display: none;
 }
+
 ul.main-nav {
     display: flex;
     position: relative;
     top: 10px;
     
 }
-ul.main-nav li.main-nav-item {
+li.main-nav-item {
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
     margin-left: 40px;
     border-bottom: 1px solid transparent;
 }
-ul.main-nav li.main-nav-item a {
+li.main-nav-item a {
     color: #fff;
 }
-ul.main-nav li.main-nav-item:hover {
+li.main-nav-item:hover {
     border-bottom: 1px solid white;
 }
 .header-middle {
@@ -86,6 +85,7 @@ ul.main-nav li.main-nav-item:hover {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    padding-bottom: 50px;
 }
 .header-socials {
     display: flex;
@@ -131,6 +131,7 @@ ul.main-nav li.main-nav-item:hover {
 }
 .skills-list {
     display: flex;
+    background-color: #f4faff;
     justify-content: space-between;
     box-shadow: 40px 40px 10px #f4faff,
     -40px -0px 10px #f4faff,
@@ -161,6 +162,7 @@ ul.main-nav li.main-nav-item:hover {
 .exp-list {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .exp-item {
     margin-bottom: 35px;
@@ -208,13 +210,13 @@ p.exp-loc {
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+    width: 50%;
 }
 .edu-item img {
     margin-right: 70px;
 }
 .edu-item p {
     color: #000;
-    width: 300px;
 }
 p.edu-year {
     font-size: 18px;
@@ -280,6 +282,9 @@ p.edu-place {
 .portfolio {
     margin-bottom: 150px;
 }
+.portfolio .container {
+    padding: 0;
+}
 .portfolio-list {
     display: flex;
     align-items: flex-start;
@@ -314,6 +319,7 @@ p.edu-place {
     margin-bottom: 60px;
     z-index: 3;
 }
+
 .testimonials img.img-title {
     margin: 0 auto;
     margin-bottom: 45px;
@@ -374,6 +380,7 @@ img.leaf-3-test {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .blog {
     padding-bottom: 75px;
@@ -381,6 +388,7 @@ img.leaf-3-test {
 .blog-list {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .blog-item {
     width: 370px;
@@ -495,6 +503,7 @@ form.contact-form textarea + input {
 .footer-content {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .footer-item {
     margin-bottom: 30px;
