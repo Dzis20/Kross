@@ -227,3 +227,139 @@ p.edu-place {
     font-size: 18px;
     color: rgba(0, 0, 0, 0.4);
 }
+.services {
+    margin-bottom: 150px;
+}
+.services-list {
+    display: flex;
+    justify-content: space-between;
+}
+.services-item {
+    width: 370px;
+    height: 415px;
+    padding-top: 95px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.services-item-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 55px;
+}
+.services-item-img img:first-child {
+    position: relative;
+    left: 10px;
+}
+.services-item-img img:last-child {
+    position: relative;
+    right: 10px;
+}
+.services-item-second .services-item-img img:first-child {
+    z-index: 3;
+}
+.services-item h3 {
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+.services-item p {
+    font-size: 15px;
+    font-family: "Roboto";
+    line-height: 1.867;
+}
+
+  .services-item-second {
+    background-color: #41228e;
+    color: #fff;
+    box-shadow: 0px 40px 20px #f4faff,
+    40px 40px 20px #f4faff,
+    -40px 40px 20px #f4faff;
+}
+.portfolio {
+    margin-bottom: 150px;
+}
+.portfolio-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.port-img-small {
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-list img {
+    margin-bottom: 24px;
+}
+.portfolio-list img:first-child {
+    margin-right: 24px;
+}
+.port-img-small img:first-child, .port-img-small img:nth-child(3) {
+    margin-right: 24px;
+}
+.testimonials {
+    padding-top: 130px;
+    padding-bottom: 120px;
+    background: url('../img/testimonials-backgound.png');
+    background-color:  #41228e;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+.testimonials h2 {
+    color: #fff;
+    margin-bottom: 60px;
+    z-index: 3;
+}
+.testimonials img.img-title {
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+p.testimonials-text {
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.636;
+    margin-bottom: 50px;
+}
+p.testimonials-text span {
+    color: #2bfdff
+}
+.testimonials img.test-photo {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+p.test-name {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+p.test-job {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.4);
+}
+img.dot-test {
+    position: absolute;
+    top: -40px;
+    left: 15%;
+}
+img.leaf-1-test {
+    position: absolute;
+    top: 65%;
+    left: 15%;
+}
+img.dot-2-test {
+    position: absolute;
+    right: 10%;
+    top: 30%;
+}
+img.leaf-2-test {
+    position: absolute; 
+    top: 10%;
+    right: 20%;
+}
+img.leaf-3-test {
+    position: absolute;
+    bottom: -5%;
+    right: 15%;
+}
