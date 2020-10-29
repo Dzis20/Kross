@@ -17,7 +17,6 @@
         position: relative;
         width: 33px;
         height: 20px;
-        z-index: 3;
     }
     .burger-menu span {
         position: absolute;
@@ -27,7 +26,6 @@
         left: 0;
         top: 8px;
         background-color: #fff;
-        transition: 1s;
     }
     .burger-menu::before,
     .burger-menu::after {
@@ -36,7 +34,6 @@
         width: 100%;
         height: 3.84px;
         left: 0;
-        transition: 1s;
         background-color: #fff;
     }
     .burger-menu::before {
@@ -47,24 +44,21 @@
     }
     .burger-menu.active span {
         transform: scale(0);
-        transition: 1s;
     }
     .burger-menu.active::after {
         transform: rotate(-45deg);
         bottom: 8px;
-        transition: 1s;
         background-color: #fff;
     }
     .burger-menu.active::before {
         transform: rotate(45deg);
         top: 8px;
-        transition: 1s;
         background-color: #fff;
     }
     .slide-menu {
         display: block;
         position: fixed;
-        left: -100%;
+        right: -100%;
         top: 0;
         height: 100%;
         width: 25%;
@@ -72,12 +66,23 @@
         z-index: 2;
         padding-top: 40px;
         padding-left: 20px;
-        transition: 1s;
     }
     .slide-menu.active {
-        left: 0;
-        transition: 1s;
+        right: 0;
     }
+    .wrapper{
+        position: relative;
+        right: 0;
+    }
+    .wrapper.active {
+        right: 25%;
+    }
+    .slide-menu .burger-menu {
+        position: absolute;
+        top: 55px;
+        right: 10px;
+    }
+
     ul.slide-main-nav {
         padding-top: 40px;
         
@@ -93,7 +98,7 @@
         border-bottom: 1px solid transparent;
     }
     .header-middle {
-        padding-left: 100px;
+        padding-left: 150px;
     }
     .skills-list {
         flex-wrap: wrap;
@@ -121,17 +126,38 @@
         top: 0%;
         right: 10%;
     }
+
+
+
+    .self-content {
+        flex-direction: column-reverse;
+    }
+    .self-img {
+        top: -50px;
+        margin-bottom: 0;
+    }
+    .self-text {
+        max-width: 100%;
+    }
+
+    .team-list {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (max-width: 767px) {
     .slide-menu {
         width: 50%;
     }
+    .wrapper.active {
+        right: 50%;
+    }
     h2.section-title {
-        font-size: 40px;
+        font-size: 60px;
     }
     .header-middle {
-        padding-left: 0;
+        padding-left: 0px;
     }
     .header-middle h1 {
         max-width: 100%;
@@ -146,6 +172,9 @@
     }
     .services-item {
         width: 100%;
+    }
+    .portfolio .container {
+        padding: 0 20px;
     }
     .portfolio-list {
         flex-direction: column;
@@ -184,7 +213,13 @@
     .slide-menu {
         width: 100%;
     }
+    .wrapper.active {
+        right: 50%;
+    }
     .exp-item {
         width: 100%;
+    }
+    .client-content {
+        flex-direction: column;
     }
 }
