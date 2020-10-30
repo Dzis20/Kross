@@ -33,9 +33,10 @@ h2.section-title {
     
 }
 .header-content {
-    background-image: url('../img/leaf-2.png'), url('../img/blog-leaf-4.png'), url('../img/blog-leaf-3.png'), url('../img/blog-leaf-5.png');
+    background-image: url('../img/leaf-2.png'), url('../img/blog-leaf-4.png');
     background-repeat: no-repeat;
-    background-position: 70% 80%, 5% 35%, 42% 25%, 100% 10%;
+    background-position: 50% -8%, -5% -5%;
+    position: relative;
 }
 .header-top {
     display: flex;
@@ -79,12 +80,30 @@ li.main-nav-item:hover {
     font-family: "Poppins";
     color: #fff;
 }
-img.contact-leaf {
+img.port-leaf-1 {
     position: absolute;
-    left: 10%;
-    bottom: -50px;
+    left: 5%;
+    bottom: -90px;
+    z-index: 1;
+}
+img.port-leaf-2 {
+    position: absolute;
+    right: 0;
+    bottom: -120px;
 }
 
+.portfolio {
+    padding-top: 150px;
+}
+.wrapper-portfolio .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.portfolio-list img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
 
 
 .client {
