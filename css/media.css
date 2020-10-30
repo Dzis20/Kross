@@ -78,11 +78,12 @@
         right: 25%;
     }
     .slide-menu .burger-menu {
-        position: absolute;
-        top: 55px;
-        right: 10px;
+        display: none;
     }
-
+    .slide-menu svg.logo {
+        position: relative;
+        top: 8px;
+    }
     ul.slide-main-nav {
         padding-top: 40px;
         
@@ -205,13 +206,16 @@
     .blog-item {
         width: 100%;
     }
-    /* .blog-item p {
-        padding-left: 0;
-    } */
 }
 @media (max-width: 500px) {
     .slide-menu {
         width: 100%;
+    }
+    .slide-menu .burger-menu {
+        display: block;
+        position: absolute;
+        top: 58px;
+        right: 20px;
     }
     .wrapper.active {
         right: 50%;

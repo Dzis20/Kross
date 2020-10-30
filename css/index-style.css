@@ -39,6 +39,7 @@ h2.section-title {
 .header-top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 48px;
     margin-bottom: 225px;
 }

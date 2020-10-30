@@ -20,9 +20,7 @@ h2.section-title {
     font-size: 60px;
     text-align: center;
 }
-.wrapper {
-    
-}
+
 .header {
     /* height: 866px; */
     background-image: url('../img/about-header-backgound.png');
@@ -43,6 +41,7 @@ h2.section-title {
 .header-top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 48px;
     margin-bottom: 225px;
 }
