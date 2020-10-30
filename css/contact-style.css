@@ -33,9 +33,9 @@ h2.section-title {
     
 }
 .header-content {
-    background-image: url('../img/leaf-2.png'), url('../img/blog-leaf-1.png'), url('../img/blog-leaf-3.png'), url('../img/blog-leaf-5.png');
+    background-image: url('../img/leaf-2.png'), url('../img/blog-leaf-4.png'), url('../img/blog-leaf-3.png'), url('../img/blog-leaf-5.png');
     background-repeat: no-repeat;
-    background-position: 70% 80%, 0% 5%, 42% 25%, 100% 10%;
+    background-position: 70% 80%, 5% 35%, 42% 25%, 100% 10%;
 }
 .header-top {
     display: flex;
@@ -79,79 +79,13 @@ li.main-nav-item:hover {
     font-family: "Poppins";
     color: #fff;
 }
-img.blog-header-img {
+img.contact-leaf {
     position: absolute;
-    left: 20%;
-}
-
-.blog {
-    padding-top: 150px;
-}
-.blog-list {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    background: #f4faff;
-    box-shadow: 0px 10px 20px #f4faff,
-    20px 0px 20px #f4faff,
-    -20px 0px 20px #f4faff;
-}
-.blog-item {
-    width: 370px;
-    height: 500px;
-    margin-bottom: 50px;
-    background: #fff;
-}
-.blog-item-first {
-    padding-top: 170px;
-}
-.blog-item-second  img {
-    height: 100%;
-}
-.blog-item h3 {
-    font-size: 22px;
-    line-height: 1.636;
-    text-align: left;
-    margin-bottom: 30px;
-    padding-left: 35px;
-}
-
-.blog-item p {
-    font-size: 15px;
-    font-family: "Roboto";
-    color: rgba(0, 0, 0, 0.702);
-    line-height: 1.667;
-    text-align: left;
-    margin-bottom: 20px;
-    padding-left: 35px;
-}
-.blog-item span {
-    display: inline-block;
-    font-size: 15px;
-    line-height: 1.4;
-    text-align: center;
-    background-color: #e8e4f1;
-    color: rgb(65, 34, 142);
-    width: 115px;
-    height: 24px;
-    margin-left: 35px;
+    left: 10%;
+    bottom: -50px;
 }
 
 
-.client {
-    /* padding: 150px 0; */
-    padding-bottom: 150px;
-    padding-top: 100px;
-}
-.client-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.client-content img {
-    margin-bottom: 30px;
-}
 .contact {
     background-image: url('../img/contact-background.png');
 }
@@ -242,4 +176,3 @@ form.contact-form textarea + input {
     font-family: "Roboto";
     color: rgba(255, 255, 255, 0.702);
 }
-

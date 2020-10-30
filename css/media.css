@@ -103,11 +103,11 @@
         border-bottom: 1px solid transparent;
     }
     .header-middle {
-        padding-left: 150px;
+        padding-left: 0px;
     }
-    .wrapper-blog .header-middle {
+    /* .wrapper-blog .header-middle, .wrapper-contact .header-middle {
         padding-left: 0;
-    }
+    } */
     .skills-list {
         flex-wrap: wrap;
     }
@@ -177,7 +177,7 @@
         right: 50%;
     }
     h2.section-title {
-        font-size: 60px;
+        font-size: 45px;
     }
     .header-middle {
         padding-left: 0px;
